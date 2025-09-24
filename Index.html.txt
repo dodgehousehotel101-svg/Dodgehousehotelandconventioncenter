@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dodge House Hotel & Convention Center | Wild West Comfort</title>
+  <meta name="description" content="Dodge House Hotel & Convention Center — a family-friendly Wild West hotel with indoor sports, heated pool & spa tub, restaurant & saloon, and event spaces." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Dodge House Hotel home">
+        <!-- Sheriff star -->
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" class="star">
+          <path d="M12 2l2.2 4.5 5-.4-3.6 3.6.9 5-4.5-2.2-4.5 2.2.9-5L4.8 6.1l5 .4L12 2z" fill="currentColor"/>
+        </svg>
+        <span class="brand-text">Dodge House Hotel & Convention Center</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav id="primary-nav" class="nav">
+        <a href="#rooms">Rooms</a>
+        <a href="#atrium">Atrium</a>
+        <a href="#sports">Indoor Sports</a>
+        <a href="#pool-spa">Pool & Spa Tub</a>
+        <a href="#dining">Restaurant & Saloon</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="btn btn--sm">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" role="banner" aria-label="Wild West hero">
+    <div class="hero-media" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <h1>Stay in the Spirit of the Wild West</h1>
+      <p>Family-friendly comfort with maroon-and-white charm — indoor sports, heated pool & spa tub, and an authentic saloon.</p>
+      <div class="hero-cta">
+        <a href="#booking" class="btn btn--lg">Check Availability</a>
+        <a href="#events" class="btn btn--ghost">Plan an Event</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section class="booking" id="booking" aria-label="Booking widget">
+    <div class="container">
+      <form class="booking-form" action="#" method="get" novalidate>
+        <label>
+          <span>Check-in</span>
+          <input type="date" name="checkin" required />
+        </label>
+        <label>
+          <span>Check-out</span>
+          <input type="date" name="checkout" required />
+        </label>
+        <label>
+          <span>Guests</span>
+          <select name="guests" aria-label="Guests">
+            <option>1 adult</option><option>2 adults</option><option>3 adults</option>
+            <option>4 adults</option><option>Family (2A+2C)</option>
+          </select>
+        </label>
+        <label>
+          <span>Promo code (optional)</span>
+          <input type="text" name="promo" placeholder="COWBOY10" inputmode="text" />
+        </label>
+        <button type="submit" class="btn btn--xl" aria-label="Search rooms">Search Rooms</button>
+        <p class="booking-note">No prepayment • Free cancellation up to 48h</p>
+      </form>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- Rooms -->
+    <section class="section" id="rooms" aria-labelledby="rooms-title">
+      <div class="container">
+        <
